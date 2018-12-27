@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29E1FC2C66BE4FB1F1C0C326 /* libPods-Code Friend Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B7CA9752DCAFEA2F7D8BC6 /* libPods-Code Friend Extension.a */; };
+		D1BD0A482191DE1A00D30282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A472191DE1A00D30282 /* AppDelegate.m */; };
+		D1BD0A4A2191DE1B00D30282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BD0A492191DE1B00D30282 /* Assets.xcassets */; };
+		D1BD0A4D2191DE1B00D30282 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1BD0A4B2191DE1B00D30282 /* MainMenu.xib */; };
+		D1BD0A502191DE1B00D30282 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A4F2191DE1B00D30282 /* main.m */; };
+		D1BD0A5E2191DE2D00D30282 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BD0A5D2191DE2D00D30282 /* Cocoa.framework */; };
+		D1BD0A6A2191DE2D00D30282 /* Code Friend.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D1BD0A5B2191DE2D00D30282 /* Code Friend.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D1BD0A952191DFA500D30282 /* QVCommandAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A7E2191DFA400D30282 /* QVCommandAction.m */; };
+		D1BD0A982191DFA500D30282 /* QVCommandInvocationJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A872191DFA400D30282 /* QVCommandInvocationJSObject.m */; };
+		D1BD0A992191DFA500D30282 /* QVSystemJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A882191DFA400D30282 /* QVSystemJSObject.m */; };
+		D1BD0A9A2191DFA500D30282 /* QVSharedSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A892191DFA400D30282 /* QVSharedSandbox.m */; };
+		D1BD0A9B2191DFA500D30282 /* QVPackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A8B2191DFA400D30282 /* QVPackageManager.m */; };
+		D1BD0A9C2191DFA500D30282 /* QVPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A8C2191DFA400D30282 /* QVPackage.m */; };
+		D1BD0A9D2191DFA500D30282 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A8E2191DFA400D30282 /* SourceEditorExtension.m */; };
+		D1BD0A9E2191DFA500D30282 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A912191DFA400D30282 /* SourceEditorCommand.m */; };
+		D1BD0AA52191FFDD00D30282 /* QVSharedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0AA42191FFDD00D30282 /* QVSharedFile.m */; };
+		D1BD0AA62191FFDD00D30282 /* QVSharedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0AA42191FFDD00D30282 /* QVSharedFile.m */; };
+		D1BD0AA921920AE300D30282 /* QVSharedKV.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0AA821920AE300D30282 /* QVSharedKV.m */; };
+		D1BD0AAA21920AE300D30282 /* QVSharedKV.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0AA821920AE300D30282 /* QVSharedKV.m */; };
+		D1D16ACA21933DCB008F58FA /* PackageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D16AC921933DCB008F58FA /* PackageListController.m */; };
+		D1D16ADD219355B8008F58FA /* AddPackageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D16ADB219355B8008F58FA /* AddPackageViewController.m */; };
+		D1D16ADE219355B8008F58FA /* AddPackageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1D16ADC219355B8008F58FA /* AddPackageViewController.xib */; };
+		D1D16B082193CD65008F58FA /* QVPackageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D16B072193CD65008F58FA /* QVPackageDownloader.m */; };
+		D1D16B0B2193CDBF008F58FA /* QVSharedPackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D16B0A2193CDBF008F58FA /* QVSharedPackageManager.m */; };
+		D1D16B0C2193CDD7008F58FA /* QVSharedPackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D16B0A2193CDBF008F58FA /* QVSharedPackageManager.m */; };
+		D1D16B0F21949DBD008F58FA /* QVSharedUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D16B0E21949DBD008F58FA /* QVSharedUtil.m */; };
+		D1D16B1021949DBD008F58FA /* QVSharedUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D16B0E21949DBD008F58FA /* QVSharedUtil.m */; };
+		D1D16B112195F4A4008F58FA /* QVSharedSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A892191DFA400D30282 /* QVSharedSandbox.m */; };
+		D1D16B1621971221008F58FA /* AddPackageLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D16B1521971221008F58FA /* AddPackageLogic.m */; };
+		D1D16B182198450A008F58FA /* builtin in Resources */ = {isa = PBXBuildFile; fileRef = D1D16B172198450A008F58FA /* builtin */; };
+		E6673433644E931C6AAB3EB3 /* libPods-Code Friend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5E624CA85B522B93F68902 /* libPods-Code Friend.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1BD0A682191DE2D00D30282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1BD0A3B2191DE1A00D30282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1BD0A5A2191DE2D00D30282;
+			remoteInfo = "Code Friend Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1BD0A6E2191DE2D00D30282 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D1BD0A6A2191DE2D00D30282 /* Code Friend.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4456C3056D412A8FFE91227 /* Pods-Code Friend Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Friend Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Code Friend Extension/Pods-Code Friend Extension.release.xcconfig"; sourceTree = "<group>"; };
+		B9CACE96B5B153F25CDF6FE9 /* Pods-Code Friend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Friend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Code Friend/Pods-Code Friend.debug.xcconfig"; sourceTree = "<group>"; };
+		D1BD0A432191DE1A00D30282 /* Code Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BD0A462191DE1A00D30282 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1BD0A472191DE1A00D30282 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1BD0A492191DE1B00D30282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1BD0A4C2191DE1B00D30282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D1BD0A4E2191DE1B00D30282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BD0A4F2191DE1B00D30282 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1BD0A512191DE1B00D30282 /* Code_Friend.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Code_Friend.entitlements; sourceTree = "<group>"; };
+		D1BD0A5B2191DE2D00D30282 /* Code Friend.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Code Friend.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BD0A5D2191DE2D00D30282 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D1BD0A662191DE2D00D30282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BD0A672191DE2D00D30282 /* Code_Friend_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Code_Friend_Extension.entitlements; sourceTree = "<group>"; };
+		D1BD0A7E2191DFA400D30282 /* QVCommandAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVCommandAction.m; sourceTree = "<group>"; };
+		D1BD0A7F2191DFA400D30282 /* QVSharedSandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVSharedSandbox.h; sourceTree = "<group>"; };
+		D1BD0A802191DFA400D30282 /* QVPackageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVPackageManager.h; sourceTree = "<group>"; };
+		D1BD0A812191DFA400D30282 /* QVPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVPackage.h; sourceTree = "<group>"; };
+		D1BD0A852191DFA400D30282 /* QVCommandInvocationJSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVCommandInvocationJSObject.h; sourceTree = "<group>"; };
+		D1BD0A862191DFA400D30282 /* QVSystemJSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVSystemJSObject.h; sourceTree = "<group>"; };
+		D1BD0A872191DFA400D30282 /* QVCommandInvocationJSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVCommandInvocationJSObject.m; sourceTree = "<group>"; };
+		D1BD0A882191DFA400D30282 /* QVSystemJSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVSystemJSObject.m; sourceTree = "<group>"; };
+		D1BD0A892191DFA400D30282 /* QVSharedSandbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVSharedSandbox.m; sourceTree = "<group>"; };
+		D1BD0A8A2191DFA400D30282 /* QVCommandAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVCommandAction.h; sourceTree = "<group>"; };
+		D1BD0A8B2191DFA400D30282 /* QVPackageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVPackageManager.m; sourceTree = "<group>"; };
+		D1BD0A8C2191DFA400D30282 /* QVPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVPackage.m; sourceTree = "<group>"; };
+		D1BD0A8E2191DFA400D30282 /* SourceEditorExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		D1BD0A8F2191DFA400D30282 /* SourceEditorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		D1BD0A902191DFA400D30282 /* SourceEditorExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		D1BD0A912191DFA400D30282 /* SourceEditorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		D1BD0AA32191FFDD00D30282 /* QVSharedFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QVSharedFile.h; sourceTree = "<group>"; };
+		D1BD0AA42191FFDD00D30282 /* QVSharedFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QVSharedFile.m; sourceTree = "<group>"; };
+		D1BD0AA721920AE300D30282 /* QVSharedKV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QVSharedKV.h; sourceTree = "<group>"; };
+		D1BD0AA821920AE300D30282 /* QVSharedKV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QVSharedKV.m; sourceTree = "<group>"; };
+		D1BD0AAB21920BCF00D30282 /* QVSharedHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QVSharedHeader.h; sourceTree = "<group>"; };
+		D1D16AC821933DCB008F58FA /* PackageListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackageListController.h; sourceTree = "<group>"; };
+		D1D16AC921933DCB008F58FA /* PackageListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackageListController.m; sourceTree = "<group>"; };
+		D1D16ADA219355B8008F58FA /* AddPackageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPackageViewController.h; sourceTree = "<group>"; };
+		D1D16ADB219355B8008F58FA /* AddPackageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPackageViewController.m; sourceTree = "<group>"; };
+		D1D16ADC219355B8008F58FA /* AddPackageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPackageViewController.xib; sourceTree = "<group>"; };
+		D1D16B062193CD65008F58FA /* QVPackageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QVPackageDownloader.h; sourceTree = "<group>"; };
+		D1D16B072193CD65008F58FA /* QVPackageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QVPackageDownloader.m; sourceTree = "<group>"; };
+		D1D16B092193CDBF008F58FA /* QVSharedPackageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QVSharedPackageManager.h; sourceTree = "<group>"; };
+		D1D16B0A2193CDBF008F58FA /* QVSharedPackageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QVSharedPackageManager.m; sourceTree = "<group>"; };
+		D1D16B0D21949DBD008F58FA /* QVSharedUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QVSharedUtil.h; sourceTree = "<group>"; };
+		D1D16B0E21949DBD008F58FA /* QVSharedUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QVSharedUtil.m; sourceTree = "<group>"; };
+		D1D16B1421971221008F58FA /* AddPackageLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPackageLogic.h; sourceTree = "<group>"; };
+		D1D16B1521971221008F58FA /* AddPackageLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPackageLogic.m; sourceTree = "<group>"; };
+		D1D16B172198450A008F58FA /* builtin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = builtin; path = ../../qvcodefriend.github.io/packages/builtin; sourceTree = "<group>"; };
+		D5681E5BE6E11CEF6D8A58F0 /* Pods-Code Friend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Friend.release.xcconfig"; path = "Pods/Target Support Files/Pods-Code Friend/Pods-Code Friend.release.xcconfig"; sourceTree = "<group>"; };
+		DFCCC2341402271515D3D458 /* Pods-Code Friend Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Friend Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Code Friend Extension/Pods-Code Friend Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E0B7CA9752DCAFEA2F7D8BC6 /* libPods-Code Friend Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Code Friend Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5E624CA85B522B93F68902 /* libPods-Code Friend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Code Friend.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1BD0A402191DE1A00D30282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6673433644E931C6AAB3EB3 /* libPods-Code Friend.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BD0A582191DE2D00D30282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BD0A5E2191DE2D00D30282 /* Cocoa.framework in Frameworks */,
+				29E1FC2C66BE4FB1F1C0C326 /* libPods-Code Friend Extension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B39BC8F464F4D9DE9ACF0E30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9CACE96B5B153F25CDF6FE9 /* Pods-Code Friend.debug.xcconfig */,
+				D5681E5BE6E11CEF6D8A58F0 /* Pods-Code Friend.release.xcconfig */,
+				DFCCC2341402271515D3D458 /* Pods-Code Friend Extension.debug.xcconfig */,
+				A4456C3056D412A8FFE91227 /* Pods-Code Friend Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1BD0A3A2191DE1A00D30282 = {
+			isa = PBXGroup;
+			children = (
+				D1BD0AA22191FCA800D30282 /* Shared */,
+				D1BD0A452191DE1A00D30282 /* Code Friend */,
+				D1BD0A5F2191DE2D00D30282 /* Code Friend Extension */,
+				D1BD0A5C2191DE2D00D30282 /* Frameworks */,
+				D1BD0A442191DE1A00D30282 /* Products */,
+				B39BC8F464F4D9DE9ACF0E30 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D1BD0A442191DE1A00D30282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD0A432191DE1A00D30282 /* Code Friend.app */,
+				D1BD0A5B2191DE2D00D30282 /* Code Friend.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1BD0A452191DE1A00D30282 /* Code Friend */ = {
+			isa = PBXGroup;
+			children = (
+				D1D16B052193CD3A008F58FA /* Logic */,
+				D1D16B0421935DF1008F58FA /* Main */,
+				D1D16B0221935DBC008F58FA /* Dialogs */,
+				D1BD0A492191DE1B00D30282 /* Assets.xcassets */,
+				D1BD0A4E2191DE1B00D30282 /* Info.plist */,
+				D1BD0A512191DE1B00D30282 /* Code_Friend.entitlements */,
+			);
+			path = "Code Friend";
+			sourceTree = "<group>";
+		};
+		D1BD0A5C2191DE2D00D30282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD0A5D2191DE2D00D30282 /* Cocoa.framework */,
+				EE5E624CA85B522B93F68902 /* libPods-Code Friend.a */,
+				E0B7CA9752DCAFEA2F7D8BC6 /* libPods-Code Friend Extension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1BD0A5F2191DE2D00D30282 /* Code Friend Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D1D16B172198450A008F58FA /* builtin */,
+				D1BD0A7B2191DFA400D30282 /* Package */,
+				D1BD0A8D2191DFA400D30282 /* System */,
+				D1BD0A662191DE2D00D30282 /* Info.plist */,
+				D1BD0A672191DE2D00D30282 /* Code_Friend_Extension.entitlements */,
+			);
+			path = "Code Friend Extension";
+			sourceTree = "<group>";
+		};
+		D1BD0A7B2191DFA400D30282 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD0A842191DFA400D30282 /* JSObject */,
+				D1BD0A812191DFA400D30282 /* QVPackage.h */,
+				D1BD0A8C2191DFA400D30282 /* QVPackage.m */,
+				D1BD0A802191DFA400D30282 /* QVPackageManager.h */,
+				D1BD0A8B2191DFA400D30282 /* QVPackageManager.m */,
+				D1BD0A8A2191DFA400D30282 /* QVCommandAction.h */,
+				D1BD0A7E2191DFA400D30282 /* QVCommandAction.m */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		D1BD0A842191DFA400D30282 /* JSObject */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD0A852191DFA400D30282 /* QVCommandInvocationJSObject.h */,
+				D1BD0A872191DFA400D30282 /* QVCommandInvocationJSObject.m */,
+				D1BD0A862191DFA400D30282 /* QVSystemJSObject.h */,
+				D1BD0A882191DFA400D30282 /* QVSystemJSObject.m */,
+			);
+			path = JSObject;
+			sourceTree = "<group>";
+		};
+		D1BD0A8D2191DFA400D30282 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD0A8E2191DFA400D30282 /* SourceEditorExtension.m */,
+				D1BD0A8F2191DFA400D30282 /* SourceEditorCommand.h */,
+				D1BD0A902191DFA400D30282 /* SourceEditorExtension.h */,
+				D1BD0A912191DFA400D30282 /* SourceEditorCommand.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		D1BD0AA22191FCA800D30282 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD0AAB21920BCF00D30282 /* QVSharedHeader.h */,
+				D1BD0AA32191FFDD00D30282 /* QVSharedFile.h */,
+				D1BD0AA42191FFDD00D30282 /* QVSharedFile.m */,
+				D1BD0AA721920AE300D30282 /* QVSharedKV.h */,
+				D1BD0AA821920AE300D30282 /* QVSharedKV.m */,
+				D1D16B092193CDBF008F58FA /* QVSharedPackageManager.h */,
+				D1D16B0A2193CDBF008F58FA /* QVSharedPackageManager.m */,
+				D1D16B0D21949DBD008F58FA /* QVSharedUtil.h */,
+				D1D16B0E21949DBD008F58FA /* QVSharedUtil.m */,
+				D1BD0A7F2191DFA400D30282 /* QVSharedSandbox.h */,
+				D1BD0A892191DFA400D30282 /* QVSharedSandbox.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D1D16B0221935DBC008F58FA /* Dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				D1D16ADA219355B8008F58FA /* AddPackageViewController.h */,
+				D1D16ADB219355B8008F58FA /* AddPackageViewController.m */,
+				D1D16ADC219355B8008F58FA /* AddPackageViewController.xib */,
+			);
+			path = Dialogs;
+			sourceTree = "<group>";
+		};
+		D1D16B0421935DF1008F58FA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D1D16AC821933DCB008F58FA /* PackageListController.h */,
+				D1D16AC921933DCB008F58FA /* PackageListController.m */,
+				D1BD0A462191DE1A00D30282 /* AppDelegate.h */,
+				D1BD0A472191DE1A00D30282 /* AppDelegate.m */,
+				D1BD0A4B2191DE1B00D30282 /* MainMenu.xib */,
+				D1BD0A4F2191DE1B00D30282 /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D1D16B052193CD3A008F58FA /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				D1D16B062193CD65008F58FA /* QVPackageDownloader.h */,
+				D1D16B072193CD65008F58FA /* QVPackageDownloader.m */,
+				D1D16B1421971221008F58FA /* AddPackageLogic.h */,
+				D1D16B1521971221008F58FA /* AddPackageLogic.m */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1BD0A422191DE1A00D30282 /* Code Friend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1BD0A542191DE1B00D30282 /* Build configuration list for PBXNativeTarget "Code Friend" */;
+			buildPhases = (
+				41BB172FA95B65A3B5DD779A /* [CP] Check Pods Manifest.lock */,
+				D1BD0A3F2191DE1A00D30282 /* Sources */,
+				D1BD0A402191DE1A00D30282 /* Frameworks */,
+				D1BD0A412191DE1A00D30282 /* Resources */,
+				D1BD0A6E2191DE2D00D30282 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1BD0A692191DE2D00D30282 /* PBXTargetDependency */,
+			);
+			name = "Code Friend";
+			productName = "Code Friend";
+			productReference = D1BD0A432191DE1A00D30282 /* Code Friend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1BD0A5A2191DE2D00D30282 /* Code Friend Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1BD0A6B2191DE2D00D30282 /* Build configuration list for PBXNativeTarget "Code Friend Extension" */;
+			buildPhases = (
+				EF93312FE7C526B6FC1692B2 /* [CP] Check Pods Manifest.lock */,
+				D1BD0A572191DE2D00D30282 /* Sources */,
+				D1BD0A582191DE2D00D30282 /* Frameworks */,
+				D1BD0A592191DE2D00D30282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Code Friend Extension";
+			productName = "Code Friend Extension";
+			productReference = D1BD0A5B2191DE2D00D30282 /* Code Friend.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1BD0A3B2191DE1A00D30282 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = everettjf;
+				TargetAttributes = {
+					D1BD0A422191DE1A00D30282 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					D1BD0A5A2191DE2D00D30282 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D1BD0A3E2191DE1A00D30282 /* Build configuration list for PBXProject "Code Friend" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1BD0A3A2191DE1A00D30282;
+			productRefGroup = D1BD0A442191DE1A00D30282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1BD0A422191DE1A00D30282 /* Code Friend */,
+				D1BD0A5A2191DE2D00D30282 /* Code Friend Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1BD0A412191DE1A00D30282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BD0A4A2191DE1B00D30282 /* Assets.xcassets in Resources */,
+				D1BD0A4D2191DE1B00D30282 /* MainMenu.xib in Resources */,
+				D1D16ADE219355B8008F58FA /* AddPackageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BD0A592191DE2D00D30282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D16B182198450A008F58FA /* builtin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41BB172FA95B65A3B5DD779A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Code Friend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF93312FE7C526B6FC1692B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Code Friend Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1BD0A3F2191DE1A00D30282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D16B0B2193CDBF008F58FA /* QVSharedPackageManager.m in Sources */,
+				D1D16B082193CD65008F58FA /* QVPackageDownloader.m in Sources */,
+				D1D16B0F21949DBD008F58FA /* QVSharedUtil.m in Sources */,
+				D1D16ACA21933DCB008F58FA /* PackageListController.m in Sources */,
+				D1BD0A502191DE1B00D30282 /* main.m in Sources */,
+				D1D16B112195F4A4008F58FA /* QVSharedSandbox.m in Sources */,
+				D1D16B1621971221008F58FA /* AddPackageLogic.m in Sources */,
+				D1BD0A482191DE1A00D30282 /* AppDelegate.m in Sources */,
+				D1D16ADD219355B8008F58FA /* AddPackageViewController.m in Sources */,
+				D1BD0AA921920AE300D30282 /* QVSharedKV.m in Sources */,
+				D1BD0AA52191FFDD00D30282 /* QVSharedFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BD0A572191DE2D00D30282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BD0A9C2191DFA500D30282 /* QVPackage.m in Sources */,
+				D1BD0A9D2191DFA500D30282 /* SourceEditorExtension.m in Sources */,
+				D1BD0A952191DFA500D30282 /* QVCommandAction.m in Sources */,
+				D1BD0A9E2191DFA500D30282 /* SourceEditorCommand.m in Sources */,
+				D1BD0A9A2191DFA500D30282 /* QVSharedSandbox.m in Sources */,
+				D1D16B0C2193CDD7008F58FA /* QVSharedPackageManager.m in Sources */,
+				D1BD0A992191DFA500D30282 /* QVSystemJSObject.m in Sources */,
+				D1D16B1021949DBD008F58FA /* QVSharedUtil.m in Sources */,
+				D1BD0A9B2191DFA500D30282 /* QVPackageManager.m in Sources */,
+				D1BD0AAA21920AE300D30282 /* QVSharedKV.m in Sources */,
+				D1BD0A982191DFA500D30282 /* QVCommandInvocationJSObject.m in Sources */,
+				D1BD0AA62191FFDD00D30282 /* QVSharedFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1BD0A692191DE2D00D30282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1BD0A5A2191DE2D00D30282 /* Code Friend Extension */;
+			targetProxy = D1BD0A682191DE2D00D30282 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1BD0A4B2191DE1B00D30282 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1BD0A4C2191DE1B00D30282 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1BD0A522191DE1B00D30282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D1BD0A532191DE1B00D30282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1BD0A552191DE1B00D30282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CACE96B5B153F25CDF6FE9 /* Pods-Code Friend.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Code Friend/Code_Friend.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YPV49M8592;
+				INFOPLIST_FILE = "Code Friend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1BD0A562191DE1B00D30282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5681E5BE6E11CEF6D8A58F0 /* Pods-Code Friend.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Code Friend/Code_Friend.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YPV49M8592;
+				INFOPLIST_FILE = "Code Friend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D1BD0A6C2191DE2D00D30282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFCCC2341402271515D3D458 /* Pods-Code Friend Extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Code Friend Extension/Code_Friend_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YPV49M8592;
+				INFOPLIST_FILE = "Code Friend Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend.extension;
+				PRODUCT_NAME = "Code Friend";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D1BD0A6D2191DE2D00D30282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4456C3056D412A8FFE91227 /* Pods-Code Friend Extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Code Friend Extension/Code_Friend_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YPV49M8592;
+				INFOPLIST_FILE = "Code Friend Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend.extension;
+				PRODUCT_NAME = "Code Friend";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1BD0A3E2191DE1A00D30282 /* Build configuration list for PBXProject "Code Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BD0A522191DE1B00D30282 /* Debug */,
+				D1BD0A532191DE1B00D30282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1BD0A542191DE1B00D30282 /* Build configuration list for PBXNativeTarget "Code Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BD0A552191DE1B00D30282 /* Debug */,
+				D1BD0A562191DE1B00D30282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1BD0A6B2191DE2D00D30282 /* Build configuration list for PBXNativeTarget "Code Friend Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BD0A6C2191DE2D00D30282 /* Debug */,
+				D1BD0A6D2191DE2D00D30282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1BD0A3B2191DE1A00D30282 /* Project object */;
+}
