@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.2</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
-	<string>7</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSExtension</key>
@@ -33,6 +33,6 @@
 		<string>com.apple.dt.Xcode.extension.source-editor</string>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2018 everettjf. All rights reserved.</string>
+	<string>Copyright © 2018-2021 everettjf. All rights reserved.</string>
 </dict>
 </plist>

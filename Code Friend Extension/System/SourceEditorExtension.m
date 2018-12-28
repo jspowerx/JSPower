@@ -38,6 +38,7 @@
                               XCSourceEditorCommandIdentifierKey : menu.globalIdentifier,
                               XCSourceEditorCommandClassNameKey : @"SourceEditorCommand",
                               }];
+        NSLog(@"menu name = %@ , id = %@", menu.name, menu.globalIdentifier);
     }
     
     return commands;
