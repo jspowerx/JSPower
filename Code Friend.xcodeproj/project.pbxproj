@@ -645,7 +645,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = YPV49M8592;
 				INFOPLIST_FILE = "Code Friend/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -653,7 +653,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.3;
+				MARKETING_VERSION = 2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -668,7 +668,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = YPV49M8592;
 				INFOPLIST_FILE = "Code Friend/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -676,7 +676,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.3;
+				MARKETING_VERSION = 2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -690,7 +690,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = YPV49M8592;
 				INFOPLIST_FILE = "Code Friend Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -699,7 +699,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.3;
+				MARKETING_VERSION = 2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend.extension;
 				PRODUCT_NAME = "Code Friend";
 				SKIP_INSTALL = YES;
@@ -714,7 +714,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = YPV49M8592;
 				INFOPLIST_FILE = "Code Friend Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -723,7 +723,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.3;
+				MARKETING_VERSION = 2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend.extension;
 				PRODUCT_NAME = "Code Friend";
 				SKIP_INSTALL = YES;
