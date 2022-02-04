@@ -38,8 +38,8 @@
 		D1D16B1021949DBD008F58FA /* QVSharedUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D16B0E21949DBD008F58FA /* QVSharedUtil.m */; };
 		D1D16B112195F4A4008F58FA /* QVSharedSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A892191DFA400D30282 /* QVSharedSandbox.m */; };
 		D1D16B1621971221008F58FA /* AddPackageLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D16B1521971221008F58FA /* AddPackageLogic.m */; };
-		D1D16B182198450A008F58FA /* builtin in Resources */ = {isa = PBXBuildFile; fileRef = D1D16B172198450A008F58FA /* builtin */; };
 		E6673433644E931C6AAB3EB3 /* libPods-JSPower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5E624CA85B522B93F68902 /* libPods-JSPower.a */; };
+		F2A92B3F27AD739C001254E7 /* builtin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F2A92B3E27AD739C001254E7 /* builtin.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,12 +126,12 @@
 		D1D16B0E21949DBD008F58FA /* QVSharedUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QVSharedUtil.m; sourceTree = "<group>"; };
 		D1D16B1421971221008F58FA /* AddPackageLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPackageLogic.h; sourceTree = "<group>"; };
 		D1D16B1521971221008F58FA /* AddPackageLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPackageLogic.m; sourceTree = "<group>"; };
-		D1D16B172198450A008F58FA /* builtin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = builtin; path = ../../qvcodefriend.github.io/packages/builtin; sourceTree = "<group>"; };
 		D5681E5BE6E11CEF6D8A58F0 /* Pods-JSPower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPower.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPower/Pods-JSPower.release.xcconfig"; sourceTree = "<group>"; };
 		DFCCC2341402271515D3D458 /* Pods-JSPowerExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPowerExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPowerExtension/Pods-JSPowerExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		E0B7CA9752DCAFEA2F7D8BC6 /* libPods-JSPowerExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPowerExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5E624CA85B522B93F68902 /* libPods-JSPower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPower.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F216297727AD686E002CD4FA /* JSPowerExtension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = JSPowerExtension.entitlements; sourceTree = "<group>"; };
+		F2A92B3E27AD739C001254E7 /* builtin.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = builtin.bundle; path = ../../jspowerx.github.io/packages/builtin.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,9 +191,9 @@
 		D1BD0A452191DE1A00D30282 /* JSPower */ = {
 			isa = PBXGroup;
 			children = (
+				D1D16B0221935DBC008F58FA /* Dialogs */,
 				D1D16B052193CD3A008F58FA /* Logic */,
 				D1D16B0421935DF1008F58FA /* Main */,
-				D1D16B0221935DBC008F58FA /* Dialogs */,
 				D1BD0A492191DE1B00D30282 /* Assets.xcassets */,
 				D1BD0A4E2191DE1B00D30282 /* Info.plist */,
 				D1BD0A512191DE1B00D30282 /* JSPower.entitlements */,
@@ -215,8 +215,8 @@
 		D1BD0A5F2191DE2D00D30282 /* JSPowerExtension */ = {
 			isa = PBXGroup;
 			children = (
+				F2A92B3E27AD739C001254E7 /* builtin.bundle */,
 				F216297727AD686E002CD4FA /* JSPowerExtension.entitlements */,
-				D1D16B172198450A008F58FA /* builtin */,
 				D1BD0A7B2191DFA400D30282 /* Package */,
 				D1BD0A8D2191DFA400D30282 /* System */,
 				D1BD0A662191DE2D00D30282 /* Info.plist */,
@@ -418,7 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1D16B182198450A008F58FA /* builtin in Resources */,
+				F2A92B3F27AD739C001254E7 /* builtin.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,7 +655,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.6;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend;
 			};
 			name = Debug;
@@ -677,7 +677,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.6;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend;
 			};
 			name = Release;
@@ -699,7 +699,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.6;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend.extension;
 				SKIP_INSTALL = YES;
 			};
@@ -722,7 +722,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.6;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.everettjf.qvcodefriend.extension;
 				SKIP_INSTALL = YES;
 			};

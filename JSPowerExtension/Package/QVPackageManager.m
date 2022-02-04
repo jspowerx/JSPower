@@ -67,7 +67,7 @@
     
     // load builtin packages
     if(!overwriteBuiltin){
-        NSURL *builtinPackagePath = [[[NSBundle mainBundle] resourceURL] URLByAppendingPathComponent:@"builtin"];
+        NSURL *builtinPackagePath = [[[NSBundle mainBundle] resourceURL] URLByAppendingPathComponent:@"builtin.bundle"];
         QVPackage * package = [QVPackage loadPackageFromPath:builtinPackagePath group:@"builtin"];
         if (!package) {
             NSLog(@"load builtin package failed : %@",builtinPackagePath);
