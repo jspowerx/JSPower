@@ -30,7 +30,7 @@
 @property (nonatomic, strong) QVSharedPackageManifestModel *manifest;
 
 /*
- packageURL = https://qvcodefriend.github.io/packages/everettjf
+ packageURL = https://jspowerx.github.io/packages/everettjf
  localDirectory = .../Packages/hashofeverettjf
 */
 - (void)startDownloadPackage:(NSURL*)packageURL to:(NSURL*)localDirectory;

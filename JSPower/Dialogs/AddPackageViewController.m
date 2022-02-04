@@ -129,7 +129,7 @@
     [self.addButton setTitle:@"Close"];
 }
 - (IBAction)tryDLCPack1Clicked:(id)sender {
-    self.packageUrlTextField.stringValue = @"https://qvcodefriend.github.io/packages/dlc/";
+    self.packageUrlTextField.stringValue = @"https://jspowerx.github.io/packages/dlc/";
 }
 
 @end

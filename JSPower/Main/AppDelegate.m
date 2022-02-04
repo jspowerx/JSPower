@@ -106,12 +106,12 @@
 }
 - (IBAction)helpClicked:(id)sender
 {
-    [QVSharedUtil openURL:@"https://qvcodefriend.github.io"];
+    [QVSharedUtil openURL:@"https://jspowerx.github.io"];
 }
 
 - (IBAction)reportIssueClicked:(id)sender
 {
-    [QVSharedUtil openURL:@"https://github.com/qvcodefriend/qvcodefriend.github.io/issues"];
+    [QVSharedUtil openURL:@"https://github.com/jspowerx/jspowerx.github.io/issues"];
 }
 - (IBAction)sayHelloToAuthorClicked:(id)sender
 {
@@ -119,7 +119,7 @@
 }
 - (IBAction)howToCreatePackageClicked:(id)sender
 {
-    [QVSharedUtil openURL:@"https://qvcodefriend.github.io/develop"];
+    [QVSharedUtil openURL:@"https://jspowerx.github.io/develop"];
 }
 - (IBAction)viewLocalClicked:(id)sender {
     NSURL *packageDir = [QVSharedPackageManager sharedManager].packagesDir;
@@ -132,7 +132,7 @@
     
 }
 - (IBAction)marketClicked:(id)sender {
-    [QVSharedUtil openURL:@"https://qvcodefriend.github.io/marketplace"];
+    [QVSharedUtil openURL:@"https://jspowerx.github.io/marketplace"];
 }
 
 - (void)packageListControllerSelectedPackageChanged:(PackageListController *)controller

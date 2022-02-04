@@ -23,7 +23,7 @@
 {
     self = [super init];
     if (self) {
-        _queue = dispatch_queue_create("com.everettjf.codefriend.download", DISPATCH_QUEUE_CONCURRENT);
+        _queue = dispatch_queue_create("com.everettjf.download", DISPATCH_QUEUE_CONCURRENT);
     }
     return self;
 }
