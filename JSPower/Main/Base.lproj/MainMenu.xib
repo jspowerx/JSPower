@@ -196,7 +196,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="710" height="420"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1055"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
             <view key="contentView" wantsLayer="YES" misplaced="YES" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="710" height="420"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -215,7 +215,7 @@
                                     <tableViewGridLines key="gridStyleMask" dashed="YES"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                     <tableColumns>
-                                        <tableColumn identifier="Column0" editable="NO" width="346" minWidth="40" maxWidth="1000" id="tuA-aC-mjX">
+                                        <tableColumn identifier="Column0" editable="NO" width="317" minWidth="40" maxWidth="1000" id="tuA-aC-mjX">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -227,8 +227,8 @@
                                             </textFieldCell>
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
-                                                <tableCellView identifier="Cell0" autoresizesSubviews="NO" id="mzT-Vn-oH3">
-                                                    <rect key="frame" x="1" y="1" width="355" height="79"/>
+                                                <tableCellView identifier="Cell0" autoresizesSubviews="NO" misplaced="YES" id="mzT-Vn-oH3">
+                                                    <rect key="frame" x="1" y="1" width="326" height="79"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <imageView identifier="logo" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lZb-44-ll3">
@@ -239,7 +239,7 @@
                                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="package" id="3HO-JR-Vrw"/>
                                                         </imageView>
                                                         <textField identifier="name" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wZZ-Wc-QFD">
-                                                            <rect key="frame" x="67" y="53" width="288" height="16"/>
+                                                            <rect key="frame" x="67" y="53" width="263" height="16"/>
                                                             <textFieldCell key="cell" title="The 1st friend" usesSingleLineMode="YES" id="BYW-Gy-oZF">
                                                                 <font key="font" usesAppearanceFont="YES"/>
                                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -247,7 +247,7 @@
                                                             </textFieldCell>
                                                         </textField>
                                                         <textField identifier="author" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xv5-BD-gkT">
-                                                            <rect key="frame" x="67" y="32" width="287" height="16"/>
+                                                            <rect key="frame" x="67" y="32" width="262" height="16"/>
                                                             <textFieldCell key="cell" title="The 1st friend" usesSingleLineMode="YES" id="elt-h8-dqg">
                                                                 <font key="font" usesAppearanceFont="YES"/>
                                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -255,7 +255,7 @@
                                                             </textFieldCell>
                                                         </textField>
                                                         <textField identifier="description" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6lW-MC-nGq">
-                                                            <rect key="frame" x="67" y="11" width="287" height="16"/>
+                                                            <rect key="frame" x="67" y="11" width="262" height="16"/>
                                                             <textFieldCell key="cell" title="Block comment, Json formatter, and more." id="kz4-Ez-ooW">
                                                                 <font key="font" usesAppearanceFont="YES"/>
                                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
