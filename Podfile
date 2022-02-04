@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 platform :macos, '10.13'
 
-target 'Code Friend' do
+target 'JSPower' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
@@ -11,7 +11,7 @@ target 'Code Friend' do
 
 end
 
-target 'Code Friend Extension' do
+target 'JSPowerExtension' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 

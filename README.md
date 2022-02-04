@@ -1,6 +1,6 @@
-# Code Friend
+# JSPower
 
-Code Friend is an Xcode Extension, it provides JavaScript interface for XcodeKit. Users can develop Xcode Extensions rapidly.
+JSPower is an Xcode Extension, it provides JavaScript interface for XcodeKit. Users can develop Xcode Extensions rapidly.
 
 https://qvcodefriend.github.io/
 

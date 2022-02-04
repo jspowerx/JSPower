@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29E1FC2C66BE4FB1F1C0C326 /* libPods-Code Friend Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B7CA9752DCAFEA2F7D8BC6 /* libPods-Code Friend Extension.a */; };
+		29E1FC2C66BE4FB1F1C0C326 /* libPods-JSPowerExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B7CA9752DCAFEA2F7D8BC6 /* libPods-JSPowerExtension.a */; };
 		D14E33E926252D4700F6E67A /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1ADD3DB26252CAB0051064B /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D14E33EC26252D9900F6E67A /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1ADD3DB26252CAB0051064B /* XcodeKit.framework */; };
 		D1BD0A482191DE1A00D30282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A472191DE1A00D30282 /* AppDelegate.m */; };
@@ -39,7 +39,7 @@
 		D1D16B112195F4A4008F58FA /* QVSharedSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD0A892191DFA400D30282 /* QVSharedSandbox.m */; };
 		D1D16B1621971221008F58FA /* AddPackageLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D16B1521971221008F58FA /* AddPackageLogic.m */; };
 		D1D16B182198450A008F58FA /* builtin in Resources */ = {isa = PBXBuildFile; fileRef = D1D16B172198450A008F58FA /* builtin */; };
-		E6673433644E931C6AAB3EB3 /* libPods-Code Friend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5E624CA85B522B93F68902 /* libPods-Code Friend.a */; };
+		E6673433644E931C6AAB3EB3 /* libPods-JSPower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5E624CA85B522B93F68902 /* libPods-JSPower.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 			containerPortal = D1BD0A3B2191DE1A00D30282 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D1BD0A5A2191DE2D00D30282;
-			remoteInfo = "Code Friend Extension";
+			remoteInfo = JSPowerExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -78,8 +78,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A4456C3056D412A8FFE91227 /* Pods-Code Friend Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Friend Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Code Friend Extension/Pods-Code Friend Extension.release.xcconfig"; sourceTree = "<group>"; };
-		B9CACE96B5B153F25CDF6FE9 /* Pods-Code Friend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Friend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Code Friend/Pods-Code Friend.debug.xcconfig"; sourceTree = "<group>"; };
+		A4456C3056D412A8FFE91227 /* Pods-JSPowerExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPowerExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPowerExtension/Pods-JSPowerExtension.release.xcconfig"; sourceTree = "<group>"; };
+		B9CACE96B5B153F25CDF6FE9 /* Pods-JSPower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPower/Pods-JSPower.debug.xcconfig"; sourceTree = "<group>"; };
 		D1ADD3DB26252CAB0051064B /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
 		D1BD0A432191DE1A00D30282 /* JSPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BD0A462191DE1A00D30282 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,11 +88,10 @@
 		D1BD0A4C2191DE1B00D30282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D1BD0A4E2191DE1B00D30282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1BD0A4F2191DE1B00D30282 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1BD0A512191DE1B00D30282 /* Code_Friend.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Code_Friend.entitlements; sourceTree = "<group>"; };
+		D1BD0A512191DE1B00D30282 /* JSPower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JSPower.entitlements; sourceTree = "<group>"; };
 		D1BD0A5B2191DE2D00D30282 /* JSPower.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JSPower.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BD0A5D2191DE2D00D30282 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D1BD0A662191DE2D00D30282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1BD0A672191DE2D00D30282 /* Code_Friend_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Code_Friend_Extension.entitlements; sourceTree = "<group>"; };
 		D1BD0A7E2191DFA400D30282 /* QVCommandAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVCommandAction.m; sourceTree = "<group>"; };
 		D1BD0A7F2191DFA400D30282 /* QVSharedSandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVSharedSandbox.h; sourceTree = "<group>"; };
 		D1BD0A802191DFA400D30282 /* QVPackageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVPackageManager.h; sourceTree = "<group>"; };
@@ -128,10 +127,11 @@
 		D1D16B1421971221008F58FA /* AddPackageLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPackageLogic.h; sourceTree = "<group>"; };
 		D1D16B1521971221008F58FA /* AddPackageLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPackageLogic.m; sourceTree = "<group>"; };
 		D1D16B172198450A008F58FA /* builtin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = builtin; path = ../../qvcodefriend.github.io/packages/builtin; sourceTree = "<group>"; };
-		D5681E5BE6E11CEF6D8A58F0 /* Pods-Code Friend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Friend.release.xcconfig"; path = "Pods/Target Support Files/Pods-Code Friend/Pods-Code Friend.release.xcconfig"; sourceTree = "<group>"; };
-		DFCCC2341402271515D3D458 /* Pods-Code Friend Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Friend Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Code Friend Extension/Pods-Code Friend Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		E0B7CA9752DCAFEA2F7D8BC6 /* libPods-Code Friend Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Code Friend Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE5E624CA85B522B93F68902 /* libPods-Code Friend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Code Friend.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5681E5BE6E11CEF6D8A58F0 /* Pods-JSPower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPower.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPower/Pods-JSPower.release.xcconfig"; sourceTree = "<group>"; };
+		DFCCC2341402271515D3D458 /* Pods-JSPowerExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPowerExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPowerExtension/Pods-JSPowerExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		E0B7CA9752DCAFEA2F7D8BC6 /* libPods-JSPowerExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPowerExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5E624CA85B522B93F68902 /* libPods-JSPower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPower.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F216297727AD686E002CD4FA /* JSPowerExtension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = JSPowerExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6673433644E931C6AAB3EB3 /* libPods-Code Friend.a in Frameworks */,
+				E6673433644E931C6AAB3EB3 /* libPods-JSPower.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +149,7 @@
 			files = (
 				D14E33EC26252D9900F6E67A /* XcodeKit.framework in Frameworks */,
 				D1BD0A5E2191DE2D00D30282 /* Cocoa.framework in Frameworks */,
-				29E1FC2C66BE4FB1F1C0C326 /* libPods-Code Friend Extension.a in Frameworks */,
+				29E1FC2C66BE4FB1F1C0C326 /* libPods-JSPowerExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,10 +159,10 @@
 		B39BC8F464F4D9DE9ACF0E30 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B9CACE96B5B153F25CDF6FE9 /* Pods-Code Friend.debug.xcconfig */,
-				D5681E5BE6E11CEF6D8A58F0 /* Pods-Code Friend.release.xcconfig */,
-				DFCCC2341402271515D3D458 /* Pods-Code Friend Extension.debug.xcconfig */,
-				A4456C3056D412A8FFE91227 /* Pods-Code Friend Extension.release.xcconfig */,
+				B9CACE96B5B153F25CDF6FE9 /* Pods-JSPower.debug.xcconfig */,
+				D5681E5BE6E11CEF6D8A58F0 /* Pods-JSPower.release.xcconfig */,
+				DFCCC2341402271515D3D458 /* Pods-JSPowerExtension.debug.xcconfig */,
+				A4456C3056D412A8FFE91227 /* Pods-JSPowerExtension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -171,8 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				D1BD0AA22191FCA800D30282 /* Shared */,
-				D1BD0A452191DE1A00D30282 /* Code Friend */,
-				D1BD0A5F2191DE2D00D30282 /* Code Friend Extension */,
+				D1BD0A452191DE1A00D30282 /* JSPower */,
+				D1BD0A5F2191DE2D00D30282 /* JSPowerExtension */,
 				D1BD0A5C2191DE2D00D30282 /* Frameworks */,
 				D1BD0A442191DE1A00D30282 /* Products */,
 				B39BC8F464F4D9DE9ACF0E30 /* Pods */,
@@ -188,7 +188,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D1BD0A452191DE1A00D30282 /* Code Friend */ = {
+		D1BD0A452191DE1A00D30282 /* JSPower */ = {
 			isa = PBXGroup;
 			children = (
 				D1D16B052193CD3A008F58FA /* Logic */,
@@ -196,9 +196,9 @@
 				D1D16B0221935DBC008F58FA /* Dialogs */,
 				D1BD0A492191DE1B00D30282 /* Assets.xcassets */,
 				D1BD0A4E2191DE1B00D30282 /* Info.plist */,
-				D1BD0A512191DE1B00D30282 /* Code_Friend.entitlements */,
+				D1BD0A512191DE1B00D30282 /* JSPower.entitlements */,
 			);
-			path = "Code Friend";
+			path = JSPower;
 			sourceTree = "<group>";
 		};
 		D1BD0A5C2191DE2D00D30282 /* Frameworks */ = {
@@ -206,22 +206,22 @@
 			children = (
 				D1ADD3DB26252CAB0051064B /* XcodeKit.framework */,
 				D1BD0A5D2191DE2D00D30282 /* Cocoa.framework */,
-				EE5E624CA85B522B93F68902 /* libPods-Code Friend.a */,
-				E0B7CA9752DCAFEA2F7D8BC6 /* libPods-Code Friend Extension.a */,
+				EE5E624CA85B522B93F68902 /* libPods-JSPower.a */,
+				E0B7CA9752DCAFEA2F7D8BC6 /* libPods-JSPowerExtension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D1BD0A5F2191DE2D00D30282 /* Code Friend Extension */ = {
+		D1BD0A5F2191DE2D00D30282 /* JSPowerExtension */ = {
 			isa = PBXGroup;
 			children = (
+				F216297727AD686E002CD4FA /* JSPowerExtension.entitlements */,
 				D1D16B172198450A008F58FA /* builtin */,
 				D1BD0A7B2191DFA400D30282 /* Package */,
 				D1BD0A8D2191DFA400D30282 /* System */,
 				D1BD0A662191DE2D00D30282 /* Info.plist */,
-				D1BD0A672191DE2D00D30282 /* Code_Friend_Extension.entitlements */,
 			);
-			path = "Code Friend Extension";
+			path = JSPowerExtension;
 			sourceTree = "<group>";
 		};
 		D1BD0A7B2191DFA400D30282 /* Package */ = {
@@ -315,9 +315,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1BD0A422191DE1A00D30282 /* Code Friend */ = {
+		D1BD0A422191DE1A00D30282 /* JSPower */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1BD0A542191DE1B00D30282 /* Build configuration list for PBXNativeTarget "Code Friend" */;
+			buildConfigurationList = D1BD0A542191DE1B00D30282 /* Build configuration list for PBXNativeTarget "JSPower" */;
 			buildPhases = (
 				41BB172FA95B65A3B5DD779A /* [CP] Check Pods Manifest.lock */,
 				D1BD0A3F2191DE1A00D30282 /* Sources */,
@@ -330,14 +330,14 @@
 			dependencies = (
 				D1BD0A692191DE2D00D30282 /* PBXTargetDependency */,
 			);
-			name = "Code Friend";
-			productName = "Code Friend";
+			name = JSPower;
+			productName = JSPower;
 			productReference = D1BD0A432191DE1A00D30282 /* JSPower.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D1BD0A5A2191DE2D00D30282 /* Code Friend Extension */ = {
+		D1BD0A5A2191DE2D00D30282 /* JSPowerExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1BD0A6B2191DE2D00D30282 /* Build configuration list for PBXNativeTarget "Code Friend Extension" */;
+			buildConfigurationList = D1BD0A6B2191DE2D00D30282 /* Build configuration list for PBXNativeTarget "JSPowerExtension" */;
 			buildPhases = (
 				EF93312FE7C526B6FC1692B2 /* [CP] Check Pods Manifest.lock */,
 				D1BD0A572191DE2D00D30282 /* Sources */,
@@ -349,8 +349,8 @@
 			);
 			dependencies = (
 			);
-			name = "Code Friend Extension";
-			productName = "Code Friend Extension";
+			name = JSPowerExtension;
+			productName = JSPowerExtension;
 			productReference = D1BD0A5B2191DE2D00D30282 /* JSPower.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
@@ -384,7 +384,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D1BD0A3E2191DE1A00D30282 /* Build configuration list for PBXProject "Code Friend" */;
+			buildConfigurationList = D1BD0A3E2191DE1A00D30282 /* Build configuration list for PBXProject "JSPower" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -397,8 +397,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1BD0A422191DE1A00D30282 /* Code Friend */,
-				D1BD0A5A2191DE2D00D30282 /* Code Friend Extension */,
+				D1BD0A422191DE1A00D30282 /* JSPower */,
+				D1BD0A5A2191DE2D00D30282 /* JSPowerExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -436,7 +436,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Code Friend-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-JSPower-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -454,7 +454,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Code Friend Extension-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-JSPowerExtension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -506,7 +506,7 @@
 /* Begin PBXTargetDependency section */
 		D1BD0A692191DE2D00D30282 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D1BD0A5A2191DE2D00D30282 /* Code Friend Extension */;
+			target = D1BD0A5A2191DE2D00D30282 /* JSPowerExtension */;
 			targetProxy = D1BD0A682191DE2D00D30282 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -640,16 +640,16 @@
 		};
 		D1BD0A552191DE1B00D30282 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9CACE96B5B153F25CDF6FE9 /* Pods-Code Friend.debug.xcconfig */;
+			baseConfigurationReference = B9CACE96B5B153F25CDF6FE9 /* Pods-JSPower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Code Friend/Code_Friend.entitlements";
+				CODE_SIGN_ENTITLEMENTS = JSPower/JSPower.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = YPV49M8592;
-				INFOPLIST_FILE = "Code Friend/Info.plist";
+				INFOPLIST_FILE = JSPower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -662,16 +662,16 @@
 		};
 		D1BD0A562191DE1B00D30282 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5681E5BE6E11CEF6D8A58F0 /* Pods-Code Friend.release.xcconfig */;
+			baseConfigurationReference = D5681E5BE6E11CEF6D8A58F0 /* Pods-JSPower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Code Friend/Code_Friend.entitlements";
+				CODE_SIGN_ENTITLEMENTS = JSPower/JSPower.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = YPV49M8592;
-				INFOPLIST_FILE = "Code Friend/Info.plist";
+				INFOPLIST_FILE = JSPower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -684,15 +684,15 @@
 		};
 		D1BD0A6C2191DE2D00D30282 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFCCC2341402271515D3D458 /* Pods-Code Friend Extension.debug.xcconfig */;
+			baseConfigurationReference = DFCCC2341402271515D3D458 /* Pods-JSPowerExtension.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Code Friend Extension/Code_Friend_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = JSPowerExtension/JSPowerExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = YPV49M8592;
-				INFOPLIST_FILE = "Code Friend Extension/Info.plist";
+				INFOPLIST_FILE = JSPowerExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -707,15 +707,15 @@
 		};
 		D1BD0A6D2191DE2D00D30282 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4456C3056D412A8FFE91227 /* Pods-Code Friend Extension.release.xcconfig */;
+			baseConfigurationReference = A4456C3056D412A8FFE91227 /* Pods-JSPowerExtension.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Code Friend Extension/Code_Friend_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = JSPowerExtension/JSPowerExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = YPV49M8592;
-				INFOPLIST_FILE = "Code Friend Extension/Info.plist";
+				INFOPLIST_FILE = JSPowerExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -731,7 +731,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1BD0A3E2191DE1A00D30282 /* Build configuration list for PBXProject "Code Friend" */ = {
+		D1BD0A3E2191DE1A00D30282 /* Build configuration list for PBXProject "JSPower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1BD0A522191DE1B00D30282 /* Debug */,
@@ -740,7 +740,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1BD0A542191DE1B00D30282 /* Build configuration list for PBXNativeTarget "Code Friend" */ = {
+		D1BD0A542191DE1B00D30282 /* Build configuration list for PBXNativeTarget "JSPower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1BD0A552191DE1B00D30282 /* Debug */,
@@ -749,7 +749,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1BD0A6B2191DE2D00D30282 /* Build configuration list for PBXNativeTarget "Code Friend Extension" */ = {
+		D1BD0A6B2191DE2D00D30282 /* Build configuration list for PBXNativeTarget "JSPowerExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1BD0A6C2191DE2D00D30282 /* Debug */,

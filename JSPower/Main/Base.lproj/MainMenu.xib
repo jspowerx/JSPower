@@ -22,11 +22,11 @@
         </customObject>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="Code Friend" id="1Xt-HY-uBw">
+                <menuItem title="JSPower" id="1Xt-HY-uBw">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Code Friend" systemMenu="apple" id="uQy-DD-JDr">
+                    <menu key="submenu" title="JSPower" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="About Code Friend" id="5kV-Vb-QxS">
+                            <menuItem title="About JSPower" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
@@ -40,7 +40,7 @@
                                 <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                            <menuItem title="Hide Code Friend" keyEquivalent="h" id="Olw-nP-bQN">
+                            <menuItem title="Hide JSPower" keyEquivalent="h" id="Olw-nP-bQN">
                                 <connections>
                                     <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
                                 </connections>
@@ -58,7 +58,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                            <menuItem title="Quit Code Friend" keyEquivalent="q" id="4sb-4s-VLi">
+                            <menuItem title="Quit JSPower" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
                                 </connections>
@@ -161,7 +161,7 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Help" id="zpI-Z0-K2d">
                         <items>
-                            <menuItem title="Code Friend Help" id="1uf-6J-0vI">
+                            <menuItem title="JSPower Help" id="1uf-6J-0vI">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="helpClicked:" target="Voe-Tx-rLC" id="kZe-lS-L1Z"/>
@@ -192,7 +192,7 @@
             </items>
             <point key="canvasLocation" x="-124" y="346"/>
         </menu>
-        <window title="Code Friend" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+        <window title="JSPower" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="710" height="420"/>

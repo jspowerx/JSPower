@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Code Friend.xcodeproj">
+      location = "self:JSPower.xcodeproj">
    </FileRef>
 </Workspace>
