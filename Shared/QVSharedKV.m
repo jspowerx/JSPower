@@ -1,6 +1,6 @@
 //
 //  QVSharedKV.m
-//  Code Friend
+//  JSPower
 //
 //  Created by everettjf on 2018/11/7.
 //  Copyright © 2018 everettjf. All rights reserved.

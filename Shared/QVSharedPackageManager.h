@@ -1,6 +1,6 @@
 //
 //  QVSharedPackageManager.h
-//  Code Friend
+//  JSPower
 //
 //  Created by everettjf on 2018/11/8.
 //  Copyright © 2018 everettjf. All rights reserved.
